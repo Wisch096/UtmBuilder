@@ -2,6 +2,9 @@
 
 public class Campaign : ValueObject
 {
+    /// <summary>
+    /// Generate a new campaign from url
+    /// </summary>
     public Campaign(string source, string medium, string name, string? id = null, string? term = null, string? content = null)
     {
         Source = source;
