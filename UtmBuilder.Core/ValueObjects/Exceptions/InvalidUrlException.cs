@@ -2,7 +2,7 @@
 
 namespace UtmBuilder.Core.ValueObjects.Exceptions;
 
-public class InvalidUrlException : Exception
+public partial class InvalidUrlException : Exception
 {
     private const string DefaultErrorMessage = "Invalid URL";
     private const string UrlRegexPattern = @"^(https?:\/\/)?([\w\-]+(\.[\w\-]+)+)(:\d+)?(\/[^\s]*)?$";
@@ -14,7 +14,10 @@ public class InvalidUrlException : Exception
         if(string.IsNullOrWhiteSpace(address))
             throw new InvalidUrlException(message);
         
-        if(!Regex.IsMatch(address, UrlRegexPattern))
+        if(!UrlRegex().IsMatch(address))
             throw new InvalidUrlException("Invalid URL address");
     }
+
+    [GeneratedRegex(UrlRegexPattern)]
+    private static partial Regex UrlRegex();
 }

@@ -9,3 +9,4 @@ C:\repos\UtmBuilder\UtmBuilder.Core\obj\Debug\net8.0\UtmBuilder.Core.dll
 C:\repos\UtmBuilder\UtmBuilder.Core\obj\Debug\net8.0\refint\UtmBuilder.Core.dll
 C:\repos\UtmBuilder\UtmBuilder.Core\obj\Debug\net8.0\UtmBuilder.Core.pdb
 C:\repos\UtmBuilder\UtmBuilder.Core\obj\Debug\net8.0\ref\UtmBuilder.Core.dll
+C:\repos\UtmBuilder\UtmBuilder.Core\obj\Debug\net8.0\UtmBuilder.Core.sourcelink.json
