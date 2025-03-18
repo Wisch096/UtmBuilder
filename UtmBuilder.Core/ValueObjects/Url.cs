@@ -1,7 +1,12 @@
-﻿namespace UtmBuilder.Core.ValueObjects;
+﻿using System.Text.RegularExpressions;
+
+namespace UtmBuilder.Core.ValueObjects;
 
 public class Url : ValueObject
 {
+
+    private const string UrlRegexPattern = @"^(https?:\/\/)?([\w\-]+(\.[\w\-]+)+)(:\d+)?(\/[^\s]*)?$";
+
     /// <summary>
     /// Create a new URL
     /// </summary>
@@ -9,6 +14,8 @@ public class Url : ValueObject
     public Url(string address)
     {
         Address = address;
+        if(Regex.IsMatch(Address, UrlRegexPattern))
+            throw new ArgumentException("Invalid URL address");
     }
     
     /// <summary>
