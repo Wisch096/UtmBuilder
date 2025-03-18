@@ -1,4 +1,5 @@
 ﻿using System.Text.RegularExpressions;
+using UtmBuilder.Core.ValueObjects.Exceptions;
 
 namespace UtmBuilder.Core.ValueObjects;
 
@@ -15,7 +16,7 @@ public class Url : ValueObject
     {
         Address = address;
         if(Regex.IsMatch(Address, UrlRegexPattern))
-            throw new ArgumentException("Invalid URL address");
+            throw new InvalidUrlException("Invalid URL address");
     }
     
     /// <summary>
