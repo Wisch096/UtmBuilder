@@ -14,6 +14,8 @@ public class Utm
     public Url Url { get; }
     public Campaign Campaign { get; }
     
+    public static implicit operator string(Utm utm) => utm.ToString();
+    
     public override string ToString()
     {
         var segments = new List<string>();
