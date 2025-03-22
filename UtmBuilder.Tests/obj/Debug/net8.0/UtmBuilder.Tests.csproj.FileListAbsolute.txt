@@ -110,3 +110,6 @@ C:\repos\UtmBuilder\UtmBuilder.Tests\obj\Debug\net8.0\refint\UtmBuilder.Tests.dl
 C:\repos\UtmBuilder\UtmBuilder.Tests\obj\Debug\net8.0\UtmBuilder.Tests.pdb
 C:\repos\UtmBuilder\UtmBuilder.Tests\obj\Debug\net8.0\UtmBuilder.Tests.genruntimeconfig.cache
 C:\repos\UtmBuilder\UtmBuilder.Tests\obj\Debug\net8.0\ref\UtmBuilder.Tests.dll
+C:\repos\UtmBuilder\UtmBuilder.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_UtmBuilder.Tests
+C:\repos\UtmBuilder\UtmBuilder.Tests\bin\Debug\net8.0\UtmBuilder.Core.dll
+C:\repos\UtmBuilder\UtmBuilder.Tests\bin\Debug\net8.0\UtmBuilder.Core.pdb
