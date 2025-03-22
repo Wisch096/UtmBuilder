@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UtmBuilder.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84a0c975d8030f0907a5b4914f6ccf94e4869abb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cc4c82130c11d0eb539d79253884d433b6daf71")]
 [assembly: System.Reflection.AssemblyProductAttribute("UtmBuilder.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UtmBuilder.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
