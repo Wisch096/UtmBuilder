@@ -4,7 +4,7 @@
 public class UrlTests
 {
     [TestMethod]
-    public void X()
+    public void ShouldReturnExceptionWhenUrlIsInvalid()
     {
         
     }
